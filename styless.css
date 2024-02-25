@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./WhatsApp Image 2024-02-23 at 17.16.03_1dd98f0c.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+     height:1000px;
+}
+
+        .item {
+            position: absolute;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+            .container {
+               
+                max-width: 1500px; /* Set maximum width for better readability on larger screens */
+                margin: 0 auto; /* Center the container horizontally */
+                padding: 50px; /* Add some padding for better spacing */
+            }
+    
+        #placeMat {
+            top: 330px;
+            left: 580px;
+            width: 300px;
+            height:200px;
+        }
+        #fork {
+            top: 430px;
+            right: 250px;
+            width: 150px;
+            height:100px;
+        }
+        #spoon {
+            top: 430px;
+            right: 600px;
+            width: 150px;
+            height:100px;
+        }
+        #knife {
+            top: 430px;
+            right: 1000px;
+            width: 120px;
+            height:80x;
+        }
+        #rose {
+            top: 430px;
+            left: 450px;
+            width: 80px;
+            height:100x;
+        }
+        #salt {
+            top: 430px;
+            left: 390px;
+            width: 30px;
+            height:30x;
+        }
+        #pepper {
+            top: 430px;
+            left: 340px;
+            width: 30px;
+            height:30x;
+        }
+        #waterglass {
+            top: 410px;
+            left: 80px;
+            width: 80x;
+            height:90px;
+        }
+        #napkin {
+            top: 430px;
+            left: 180px;
+            width: 150px;
+            height:100px;
+        }
+        #cross{
+            left : 800px;
+            bottom: 280px;
+            width: 200px;
+            height:200px;
+            position: fixed;
+        }
+        #tik{
+            right : 800px;
+            bottom: 450px;
+            width: 60px;
+            height:70px;
+            position: fixed;
+        }
+        @media only screen and (max-width: 768px) {
+            /* Adjust styles for smaller screens */
+            .item {
+                position: relative;
+                margin-bottom: 20px;
+            }
+        }
